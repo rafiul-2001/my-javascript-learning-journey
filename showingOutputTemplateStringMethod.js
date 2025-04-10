@@ -7,7 +7,7 @@ console.log(`My name is ${name}`);
 // how do u will print in new line??
 
 console.log(`My name is
-${name}`);  // this is not funny
+${name}`);  //warning: "enter means new line here"
 
 //I will use this instead
 console.log(`My name is\n${name}`);
