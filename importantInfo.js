@@ -15,3 +15,11 @@ ar.sort(function(a,b){
     return a-b;
 });
 console.log(ar); // now it is working
+
+
+
+
+/*
+let ab = 011221; // decimal with leading zero  is not allowed in javascript
+let ab = 1234; // this will do
+*/
