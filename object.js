@@ -21,7 +21,7 @@ function userInfo(name, id, age, language){
     this.age=age;
     this.language=language;
 
-    this.display = function(){  // remember the function expression?
+    this.display = function(){  // remember the function expression? If using templateString method this.key isn't working. why? but removing this it will work. why?
         console.log(this.name);
         console.log(this.id);
         console.log(this.age);
