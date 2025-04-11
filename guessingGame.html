@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+</head>
+<body>
+    <script>
+        let win = 0;
+        let loss = 0;
+        while(1){
+            let randGuess = Math.floor(Math.random()*4+1);
+            let userGusee = parseInt(prompt(`Enter your guessing number (between 1-5): `));
+            if(randGuess==userGusee){
+                console.log(`You are right this time! The computer guess was: ${randGuess}`);
+                ++win;
+                break;
+            }else{
+                console.log(`You are wrong this time! The computer guess was ${randGuess} Try again`);
+                ++loss;
+            }
+        }
+        document.write(`You win ${win} times<br>`);
+        document.write(`You loss ${loss} times`);
+    </script>
+</body>
+</html>
