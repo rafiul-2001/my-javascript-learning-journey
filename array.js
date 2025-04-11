@@ -1,4 +1,4 @@
-// pop, opposite of push in js is shift. shift remove element from the begining
+// pop, opposite of pop in js is shift. shift remove element from the begining
 // push,opposite unshift. unshift add element in the begining of the array exe:arr.unshift(4)   
 
 
