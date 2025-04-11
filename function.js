@@ -30,6 +30,7 @@ console.log(squre(5));
 /*
 //Function Expression
 // eida abar ki? function ke ekta variable e insert kore sei variable ke function hisebe use kora jay
+//important: OOP er jnne lage. constructor er vetor function create kore ekta variable e insert kore constructor er baire theke call kora jay
 
 let rafiul = function squre(num){
     console.log(num*num);
