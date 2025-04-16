@@ -40,4 +40,9 @@ rafiul(9);
 */
 
 
-
+/*
+//anonymous function, can be used for evenListener
+function(){
+    // do what u want
+}
+*/
