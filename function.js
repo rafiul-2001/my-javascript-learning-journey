@@ -45,4 +45,10 @@ rafiul(9);
 function(){
     // do what u want
 }
+
+
+exe:
+name.addEventListener("click", function(){
+    // do whatever
+});
 */
